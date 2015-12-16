@@ -19,7 +19,7 @@ EnemyTank[] myEnemyTank;
 Timer myTimer;
 
 void setup() {
-  fullScreen(P3D);
+  size(1200,1000,P3D);
   //frameRate(90);
   menuButton1=new Button(color(#6792A2), -200, -200, 150, 150, 1); // Takes you to Pong
   menuButton2=new Button(color(#6792A2), -200, 200, 150, 150, 2); // Takes you to Asteroid
